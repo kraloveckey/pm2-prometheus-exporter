@@ -39,7 +39,7 @@ In the `/etc/prometheus/prometheus.yml` inside `scrape_configs` add this block:
           application: 'pm2-app-name'
 ```
 
-Once Prometheus and Grafana are set up, you can add following Dashboard. Navigate to the Grafana dashboard page, click on **"New –> Import"** and paste the dashboard template URL or import via dashboard JSON model. Then, customize the dashboard as needed.
+Once Prometheus and Grafana are set up, you can add following [`Dashboard`](grafana/pm2-prometheus-exporter-dashboard.json). Navigate to the Grafana dashboard page, click on **"New –> Import"** and paste the dashboard template URL or import via dashboard JSON model. Then, customize the dashboard as needed.
 
 <img src="grafana/dashboard1.png" alt="Alt text" width="750" height="350">
 
